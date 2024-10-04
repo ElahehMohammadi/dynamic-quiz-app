@@ -1,0 +1,62 @@
+//fonts
+$font-family-base: $font-family-base-var;
+$font-family-sans-serif: $font-family-base-var;
+$headings-font-family: $headings-font-family-var;
+
+//////BASE COLOR///////
+$body-color: $secondary-2;
+$headings-color: $secondary-2;
+
+//Line Height
+$line-height-sm: $LINEHEIGHT-3;
+$line-height-base: $LINEHEIGHT-2;
+$line-height-lg: $LINEHEIGHT-1;
+
+
+//font weights
+
+$font-weight-normal: $BOLD;
+$font-weight-bold: $XBLACK;
+$font-weight-bolder: $HEAVY;
+$font-weight-base: $MEDIUM;
+
+// nav paddings
+$navbar-padding-x: 0rem;
+$navbar-padding-y: 0rem;
+$nav-link-padding-x: 0rem;
+$nav-link-padding-y: 0rem;
+$navbar-brand-padding-y: 0rem;
+$navbar-brand-padding-x: 0rem;
+$navbar-nav-link-padding-y: 0rem;
+$navbar-nav-link-padding-x: 0rem;
+
+
+//btn
+
+$btn-border-radius: 0.5rem;
+//margin
+// Reset margins for theHeader and its components
+$navbar-margin-y: 0;
+$navbar-nav-margin-x: 0;
+$navbar-brand-margin-end: 0;
+//dropdown menu
+$dropdown-menu-gap: $space-8px;
+
+//theBreadcrumb customization
+$breadcrumb-padding-y: 0;
+$breadcrumb-padding-x: 0;
+$breadcrumb-item-padding-x: 0.5rem;
+$breadcrumb-margin-bottom: 0rem;
+$breadcrumb-bg: null;
+$breadcrumb-divider-color: $gray-medium-dark;
+$breadcrumb-active-color: $gray-medium-dark;
+
+
+//progress
+$progress-height: 0.5rem;
+
+$progress-bg: $gray-light-medium;
+$progress-border-radius: 4px;
+$progress-box-shadow: none;
+
+

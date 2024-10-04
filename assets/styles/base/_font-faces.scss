@@ -1,0 +1,45 @@
+//Importing the fonts
+//IranSansX
+
+
+@font-face {
+  font-family: "IranSansX";
+  src: url("assets/fonts/IranSansX/Woff2/IRANSansXFaNum-Bold.woff2") format("woff2"),
+  url("assets/fonts/IranSansX/Woff/IRANSansXFaNum-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: "IranSansX";
+  src: url("assets/fonts/IranSansX/Woff2/IRANSansXFaNum-ExtraBold.woff2") format("woff2"),
+  url("assets/fonts/IranSansX/Woff/IRANSansXFaNum-ExtraBold.woff") format("woff");
+  font-weight: 800;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: "IranSansX";
+  src: url("assets/fonts/IranSansX/Woff2/IRANSansXFaNum-Medium.woff2") format("woff2"),
+  url("assets/fonts/IranSansX/Woff/IRANSansXFaNum-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "IranYekanX";
+  src: url("assets/fonts/IranYekanX/Woff2/IRANYekanXFaNum-ExtraBold.woff2") format("woff2"),
+  url("assets/fonts/IranYekanX/Woff/IRANYekanXFaNum-ExtraBold.woff") format("woff");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "IranYekanX";
+  src: url("assets/fonts/IranYekanX/Woff2/IRANYekanXFaNum-Heavy.woff2") format("woff2"),
+  url("assets/fonts/IranYekanX/Woff/IRANYekanXFaNum-Heavy.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+}

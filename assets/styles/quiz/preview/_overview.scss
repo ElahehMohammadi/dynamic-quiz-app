@@ -1,0 +1,59 @@
+.overview-card {
+  display: flex;
+  gap: $space-48px;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  .card {
+    &__content {
+      display: flex;
+      flex-direction: column;
+      gap: $space-28px;
+      flex-grow: 1;
+
+
+      &__header {
+        display: flex;
+        gap: $space-20px;
+        flex-direction: column;
+      }
+
+      &__action-btn {
+        display: flex;
+        gap: $space-40px;
+        flex-direction: column;
+
+        .tags {
+          display: flex;
+          gap: $space-12px;
+          flex-wrap: wrap;
+
+        }
+
+        .quiz-overview__tag {
+          display: inline-flex;
+          background-color: $gray-lighter;
+          padding: $space-8px $space-10px $space-8px $space-10px;
+          border-radius: $btn-border-radius;
+        }
+
+        .start-btn {
+          display: flex;
+          padding: $space-10px $space-16px $space-10px $space-12px;
+          border-radius: $radius-10px;
+          justify-content: center;
+          @media (max-width: 576px) {
+            width: 100%;
+          }
+
+          &__content {
+            align-items: center;
+            display: flex;
+            gap: $space-8px;
+          }
+        }
+      }
+    }
+
+  }
+}

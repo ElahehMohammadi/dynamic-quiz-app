@@ -1,0 +1,75 @@
+
+.past-results-card {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+
+  &__divider {
+    margin: 0;
+    border: 0;
+    border-top: 2px solid $gray-light;
+  }
+
+  &__average-performance {
+    display: flex;
+    gap: $space-20px;
+    align-items: flex-start;
+    flex: 1;
+
+    .cup-icon {
+      display: inline-flex;
+      padding: 11px;
+      border-radius: $radius-16px;
+    }
+
+    .gradient-background {
+      background: linear-gradient(
+                      135deg,
+                      #fcbf17 0%,
+                      #fca018 23.67%,
+                      #f34158 49.46%,
+                      #5636de 74.86%,
+                      #24099a 100%
+      );
+    }
+
+    .performance-message {
+      display: flex;
+      flex-direction: column;
+      gap: $space-12px;
+    }
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    gap: $space-12px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    @media (max-width: 576px) {
+      padding-bottom: $space-28px;
+    }
+
+    &::-webkit-scrollbar {
+      height: 4px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background-color: $gray-medium;
+      border-radius: 0.75rem !important;
+      background-clip: padding-box;
+    }
+
+    &::-webkit-scrollbar-track {
+      background-color: transparent;
+      border-radius: 1.5rem 0 0 1.5rem !important;
+
+    }
+
+    .tag-row {
+      gap: $space-12px;
+      white-space: nowrap;
+      display: flex;
+    }
+  }
+}

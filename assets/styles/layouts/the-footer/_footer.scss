@@ -1,0 +1,51 @@
+.footer-section {
+
+
+  border-bottom: 0.5rem solid $secondary-2;
+
+  &__container {
+    padding-top: $space-48px;
+    padding-bottom: $space-48px;
+    display: flex;
+    gap: $space-40px;
+
+    .row {
+      --bs-gutter-x: 0;
+
+    }
+
+    a {
+      text-decoration: none;
+    }
+  }
+
+  &__content {
+    gap: $space-16px;
+    @media (max-width: 991.68px) {
+      column-gap: $space-16px;
+      row-gap: $space-28px;
+    }
+
+
+    > span {
+      content: '';
+    }
+
+    .description {
+
+
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: $space-24px;
+
+      p {
+        margin: 0;
+      }
+    }
+
+  }
+
+
+}
+

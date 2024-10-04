@@ -1,0 +1,71 @@
+//Heading
+@mixin headings($weight) {
+  font-weight: $weight;
+  color: $secondary-2;
+  margin-bottom: 0;
+}
+
+h1,
+.h1 {
+  @include headings($HEAVY);
+}
+
+h2,
+.h2 {
+  @extend .h1;
+}
+
+h3,
+.h3 {
+  @include headings($XBLACK);
+}
+
+h4,
+.h4 {
+  @extend .h3;
+}
+
+h5,
+.h5 {
+  @extend .h3;
+}
+
+h6,
+.h6 {
+  @extend .h3;
+  font-size: $h6-font-size;
+}
+
+//Titles & subtitles
+@mixin fontStyle($font-size, $weight) {
+  font-weight: $weight;
+  font-size: $font-size;
+  color: $secondary-2;
+  margin-bottom: 0;
+}
+
+.title1 {
+  @include fontStyle($font-size: $title1-font-size, $weight: $title1-font-weight);
+}
+
+.title2 {
+  @include fontStyle($font-size: $title2-font-size, $weight: $BOLD);
+}
+
+.title3 {
+  @include fontStyle($font-size: $title3-font-size, $weight: $BOLD);
+}
+
+.title4 {
+  @include fontStyle($font-size: $title4-font-size, $weight: $BOLD);
+}
+
+
+.subtitle-1 {
+  @include fontStyle($subtitle1-font-size, $weight: $MEDIUM);
+}
+
+.subtitle-2 {
+  @include fontStyle($subtitle2-font-size, $weight: $MEDIUM);
+}
+

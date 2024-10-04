@@ -1,0 +1,59 @@
+.question-card {
+  display: flex;
+  flex-direction: column;
+  gap: $space-40px;
+  align-items: flex-start;
+  flex: 1;
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    gap: $space-20px;
+    width: 100%;
+    flex: 1;
+  }
+
+  &__question-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: $space-24px;
+
+    @media (max-width: 576px) {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
+
+  &__progress {
+    display: flex;
+    gap: $space-12px;
+    align-items: center;
+  }
+
+  &__divider {
+    margin: 0;
+    border: 0;
+    border-top: 2px solid $gray-light;
+  }
+
+  &__footer {
+    display: flex;
+    gap: $space-20px;
+    @media (max-width: 576px) {
+      flex-direction: column;
+      align-items: flex-start;
+      width: 100%;
+      gap: $space-24px;
+    }
+  }
+
+  &__submit-button {
+    border-radius: $space-10px;
+    padding: $space-10px $space-16px;
+    border: none;
+    @media (max-width: 576px) {
+      width: 100%;
+    }
+  }
+}

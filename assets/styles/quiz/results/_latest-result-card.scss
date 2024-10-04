@@ -1,0 +1,70 @@
+
+.result-card {
+  display: flex;
+  gap: $space-48px;
+  justify-content: space-between;
+  @media (max-width: 768px) {
+    justify-content: center;
+  }
+
+  .card {
+    &__content {
+      display: flex;
+      flex-direction: column;
+      gap: $space-28px;
+
+      &__header {
+        display: flex;
+        flex-direction: column;
+        gap: $space-24px;
+        @media (max-width: 768px) {
+          gap: $space-28px;
+        }
+
+        &__performance {
+          display: flex;
+          flex-direction: column;
+          gap: $space-24px;
+
+          @media (max-width: 768px) {
+            gap: $space-20px;
+          }
+
+          .performance__message {
+            display: flex;
+            align-items: center;
+            gap: $space-12px;
+
+            .icon {
+              @media (max-width: 768px) {
+                @include size(1.75rem);
+              }
+            }
+          }
+        }
+      }
+
+      &__footer {
+        display: flex;
+        flex-direction: column;
+        gap: $space-40px;
+      }
+
+      &__try-again-btn {
+        padding: $space-10px $space-12px $space-10px $space-16px;
+        border-radius: $radius-10px;
+        display: flex;
+        align-items: center;
+        gap: $space-8px;
+        justify-content: center;
+        @media (max-width: 768px) {
+          width: 100%;
+        }
+      }
+    }
+
+    &__img {
+      object-fit: none;
+    }
+  }
+}

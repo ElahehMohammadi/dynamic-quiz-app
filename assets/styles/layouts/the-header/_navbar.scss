@@ -1,0 +1,46 @@
+
+.navbar-toggler {
+  --bs-btn-padding-x: 0;
+  --bs-btn-padding-y: 0;
+  padding: $phone-icon-padding;
+  border: $menu-icon-border-width solid $secondary-2 !important;
+  color: $secondary-2;
+}
+
+.offcanvas {
+  flex-shrink: 1;
+
+  .offcanvas-header {
+    flex-shrink: 1;
+
+    .btn {
+      .icon {
+        color: $secondary-2;
+      }
+
+      &:first-child:active {
+        border: 0;
+      }
+    }
+  }
+
+  .offcanvas-body {
+    margin: 0;
+
+    .navbar-nav {
+      padding: 0;
+
+      @media (max-width: 767.98px) {
+        height: 100%;
+        flex: 1 0 auto;
+        display: flex;
+        gap: $space-8px;
+        justify-content: flex-start;
+        align-items: stretch;
+      }
+    }
+  }
+}
+
+
+

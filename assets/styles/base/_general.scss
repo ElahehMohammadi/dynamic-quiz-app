@@ -1,0 +1,93 @@
+
+html {
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+}
+
+.body-content, .error-body-content {
+  /* 360px */
+  min-width: $body-min-width;
+  position: relative;
+
+  //icons
+  .nuxt-icon {
+    display: inherit;
+    align-items: center !important;
+
+    svg {
+      width: inherit !important;
+      height: inherit !important;
+      font-size: inherit !important;
+      margin-bottom: 0 !important;
+    }
+  }
+}
+
+.content-container-lg {
+  @media (min-width: 576px) {
+    @include make-container($section-padding-x-lg)
+  }
+}
+
+.content-container-sm {
+  @media (max-width: 575.98px) {
+    @include make-container($section-padding-x-sm)
+  }
+}
+
+//page size
+.page-content {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  @media (max-width: 575.98px) {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+
+
+//icons
+// Mixin icon size
+@mixin size($size) {
+  width: $size;
+  height: $size;
+}
+
+.icon-xs {
+  @include size($xs-icon-size); // 10px
+}
+
+.icon-sm {
+  @include size($sm-icon-size); // 16px
+}
+
+.icon-md {
+  @include size($md-icon-size); // 18px
+}
+
+.icon-lg {
+  @include size($lg-icon-size); // 20px
+}
+
+.icon-xl {
+  @include size($xl-icon-size); // 32px
+}
+
+.icon-xxl {
+  @include size($xxl-icon-size); // 44px
+}
+
+
+//buttons
+.btn {
+  &:focus,
+  &:active {
+    box-shadow: none !important;
+  }
+}
+
+
+
+
+
+

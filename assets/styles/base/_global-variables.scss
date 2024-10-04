@@ -1,0 +1,91 @@
+//////FONT WEIGHT//////
+$HEAVY: 900;
+$XBLACK: 800;
+$BOLD: 700;
+$MEDIUM: 500;
+// font-Weight-base (body)
+$font-weight-base: $MEDIUM;
+//Title1 weight
+$title1-font-weight: $XBLACK;
+
+////////LINE HEIGHT////////
+$LINEHEIGHT-1: 2;
+$LINEHEIGHT-2: 1.75;
+$LINEHEIGHT-3: 1.5;
+$h1-lineheight: 2.75;
+$h5-lineheight: 4;
+///////FONT FAMILY/////////
+//heading
+$headings-font-family-var: 'IranYekanX', serif;
+//body (font-family-base)
+$font-family-base-var: 'IranSansX', sans-serif;
+
+
+//////////FONT SIZES/////////
+//H6 size
+$h6-font-size: 1.125rem;
+//Titles font sizes
+$title1-font-size: 1.25rem;
+$title2-font-size: 1.125rem;
+$title3-font-size: 1rem;
+$title4-font-size: 0.875rem;
+$title5-font-size: 0.75rem;
+//Subtitles font sizes
+$subtitle1-font-size: 0.875rem;
+$subtitle2-font-size: 0.75rem;
+
+///////////OTHER SIZES//////////
+///body width
+
+$body-min-width: 22.5rem;
+
+//icons size
+$xs-icon-size: 0.625rem;
+$sm-icon-size: 1rem;
+$md-icon-size: 1.125rem;
+$lg-icon-size: 1.25rem;
+$xl-icon-size: 2rem;
+$xxl-icon-size: 2.75rem;
+
+///nav menu icon width
+$menu-icon-border-width: 0.063rem;
+
+
+///open state line
+$open-state-width: 1rem;
+$open-state-height: 0.125rem; //2px
+$open-state-percent-width: 28%;
+
+
+///////////RADIUS//////////
+//btn radius
+$radius-10px: 0.625rem;
+$radius-16px: 1rem;
+
+/////////SPACING///////////
+////////base spacing
+$space-8px: 0.5rem;
+$space-10px: 0.625rem;
+$space-12px: 0.75rem;
+$space-16px: 1rem;
+$space-20px: 1.25rem;
+$space-24px: 1.5rem;
+$space-28px: 1.75rem;
+$space-40px: 2.5rem;
+$space-48px: 3rem;
+////padding
+$phone-icon-padding: 0.531rem;
+$section-padding-x-lg: 2.5rem;
+$section-padding-x-sm: 2rem;
+
+
+//main nav top margin
+$top-margin-lg: 0.69rem;
+
+
+//login btn gap
+$login-btn-gap: 0.375rem;
+
+
+
+
